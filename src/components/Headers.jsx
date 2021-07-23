@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const Headers = () => {
-    return (
-        <div>
-            <h1>Navbar</h1>
-        </div>
-    )
-}
+	return (
+		<div className='Header'>
+			<li>Negocios</li>
+			<li>Doctores</li>
+			<li>Mercdos</li>
+			<li>Profesionistas</li>
+			<li>Recetas</li>
+			<li>Restaurantes</li>
+		</div>
+	);
+};
 
-export default Headers
+export default Headers;
